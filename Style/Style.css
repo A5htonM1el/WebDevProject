@@ -67,7 +67,7 @@ footer{
   gap: 5px;
 }
 
-.container div {
+.container section {
   background-color: rgb(53, 53, 53);
   padding: 10px;
   font-size: 30px;
