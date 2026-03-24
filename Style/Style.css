@@ -55,8 +55,20 @@ footer{
     opacity: 80%;
 }
 .Intro h2{
-    padding: 10px;
     color: rgb(172, 172, 172);
+}
+
+.IntroImage{
+    width: 1920px;
+    height: 500;
+    overflow: hidden;
+    /* Hide content outside the bounds */
+}
+.IntroImage img {
+    width: 1920px;
+    /* Image size exceeds container width */
+    height: auto;
+    /* Maintain aspect ratio */
 }
 
 .container {
@@ -83,3 +95,8 @@ footer{
     padding: 10px;
     color: rgb(172, 172, 172);
 }
+
+
+/*
+https://www.geeksforgeeks.org/css/how-to-crop-image-in-css/
+*/
