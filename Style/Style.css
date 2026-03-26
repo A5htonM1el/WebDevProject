@@ -21,7 +21,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: rgb(172, 172, 172);
+    color: white;
     text-decoration: none;
 }
 
@@ -30,13 +30,13 @@ nav ul li:hover{
 }
 
 header{
-    background-color: #131313;
-    text-align: end;
+    background-color: #353232;
+    text-align: start;
 }
 /*rgb(161, 39, 39)*/
 
 body{
-    background-color: #131313;
+    background-color: #353232;
 }
 
 footer{
@@ -46,30 +46,41 @@ footer{
     position: fixed;
     bottom: 0px;
     width: 100%;
-    background-color: #131313;
+    background-color: #1f1d1d;
     opacity: 80%;
 }
 
 .Intro{
-    background-color: rgb(161, 39, 39);
-    opacity: 80%;
-}
-.Intro h2{
-    color: rgb(172, 172, 172);
+    position: relative;
+    text-align:justify;
+    color: white;
 }
 
-.IntroImage{
-    width: 1920px;
-    height: 500;
-    overflow: hidden;
-    /* Hide content outside the bounds */
+.ImageContainer{
+    width: 1980px;
+    height: 500px;
+} /*defines Section Size*/
+
+.overlayH2{
+    font-size: 300%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
-.IntroImage img {
-    width: 1920px;
-    /* Image size exceeds container width */
-    height: auto;
-    /* Maintain aspect ratio */
+
+.overlayP{
+    position: absolute;
+    top: 150px;
+    left: 60px;
 }
+
+
+.ImageContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} /*image excess parts*/
+
 
 .container {
   display: grid;
@@ -99,4 +110,5 @@ footer{
 
 /*
 https://www.geeksforgeeks.org/css/how-to-crop-image-in-css/
+https://www.w3schools.com/Css/tryit.asp?filename=trycss_image_modal_js
 */
