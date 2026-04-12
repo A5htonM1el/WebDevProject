@@ -1,66 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset ="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Homepage of TrueCrime website which shares news and weekly share some information on previous murderers and serial killers ( College Project)">
-        <meta name="keywords" content="Introduction,Section,Footer">
-        <title>True Crime News</title>
-        <link rel="stylesheet" href="Style/Style.css">
-    </head>
-    <body >
-        <header>
-            <!--Inline styling for image the logo-->
-            <!--<img style="float:left; margin-right:10px;" src="Images/PageLogo.png" alt="Page Logo" width="110">>-->
-            <h1 style="color: white;">TrueCrime</h1>
-            <nav>
-                <ul>
-                    <li id="active"> <a href="index.html">Home</a></li>
-                    <li> <a href="KOTW.html">Killer Of The Week</a></li>
-                    <li> <a href="Forums.html">Forums</a></li>
-                    <li> <a href="KOTW History.html">KOTW History</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-    <main>
-        <section class="Intro">
-            <section class="ImageContainer">
-                <img style="opacity: 70%;" src="Images/policeCar.jpg" alt="PoliceCar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="True Crime news and weekly killer breakdowns.">
+    <meta name="keywords" content="True Crime, Killer Of The Week, News">
+    <title>True Crime News</title>
+    <link rel="stylesheet" href="Style/Style.css">
+</head>
 
-                <h2 class="overlayH2">Welcome to True Crime News!</h2>
-                <p class="overlayP">Temp text temp text temp text temp text temp text Temp text temp text temp text temp text temp text 
-                    <br>Temp text temp text temp text temp text temp text Temp text temp text temp text temp text temp text 
-                    <br>Temp text temp text temp text temp text temp text Temp text temp text temp text temp text temp text 
-                    <br>Temp text temp text temp text temp text temp text</p>
-            </section>
-        </section>
-        <section>
-            <section class="container">
-                <section><img src="Images/testImage.jpg" alt="TestImage" width="300" height="auto">
-                    <p>News Heading</p>
-                </section>
-                
-                <section><img src="Images/testImage.jpg" alt="TestImage" width="300" height="auto">
-                    <p>News Heading</p>
-                </section>
-                <section><img src="Images/testImage.jpg" alt="TestImage" width="300" height="auto">
-                    <p>News Heading</p>
-                </section>  
-                <section><img src="Images/testImage.jpg" alt="TestImage" width="300" height="auto">
-                    <p>News Heading</p>
-                </section>
-                <section><img src="Images/testImage.jpg" alt="TestImage" width="300" height="auto">
-                    <p>News Heading</p>
-                </section>
-                <section><img src="Images/testImage.jpg" alt="TestImage" width="300" height="auto">
-                    <p>News Heading</p>
-                </section>
-            </section>
-        </section>
-    </main>
-    <footer>
-        <p>Footer 2026 Website</p>
-    </footer>
+<body>
+
+<header>
+    <h1 style="text-align:center; padding:20px;">Killer Of The Week</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="KOTW.html">Killer Of The Week</a></li>
+            <li><a href="Forums.html">Forums</a></li>
+            <li><a href="KOTW History.html">KOTW History</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="intro">
+
+    <img src="Images/cityImage.JPG" alt="City crime scene">
+
+    <article>
+        <h2>Welcome to True Crime News</h2>
+        <p>
+            Exploring the darkest stories, breaking headlines, and the psychology behind crime.
+        </p>
+
+        <a href="#news">Read Latest Stories ↓</a>
+    </article>
+
+</section>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main class="section" id="news">
+
+    <h2 style="text-align:center;">Latest News</h2>
+
+    <section class="grid">
+
+        <!-- FEATURED STORY -->
+        <article class="card featured">
+            <h3>Inside the Mind of a Serial Killer</h3>
+            <p>
+                This week’s featured deep dive explores one of the most disturbing criminal cases,
+                examining motive, behavior patterns, and investigation breakthroughs.
+            </p>
+        </article>
+
+        <!-- STANDARD NEWS CARDS -->
+        <article class="card">
+            <h3>Global Leaders Meet on Climate Action</h3>
+            <p>New agreements aim to tackle rising environmental concerns worldwide.</p>
+        </article>
+
+        <article class="card">
+            <h3>Breakthrough in Artificial Intelligence</h3>
+            <p>Tech companies reveal major advancements that could reshape industries.</p>
+        </article>
+
+        <article class="card">
+            <h3>Championship Final Ends in Drama</h3>
+            <p>An intense match concludes with a last-minute victory.</p>
+        </article>
+
+        <article class="card">
+            <h3>New Film Breaks Box Office Records</h3>
+            <p>The latest blockbuster sees massive global success in its opening weekend.</p>
+        </article>
+
+        <article class="card">
+            <h3>Economic Growth Expected to Rise</h3>
+            <p>Experts predict improvement despite global uncertainty.</p>
+        </article>
+
+        <article class="card">
+            <h3>Major Police Investigation Opens</h3>
+            <p>Authorities launch a new investigation following high-profile developments.</p>
+        </article>
+
+        <article class="card">
+            <h3>Forensic Tech Solves Cold Case</h3>
+            <p>New DNA analysis techniques bring answers to decades-old mysteries.</p>
+        </article>
+
+        <article class="card">
+            <h3>Community Calls for Crime Prevention</h3>
+            <p>Residents and officials discuss improved safety measures.</p>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>True Crime News © 2026</p>
+</footer>
+
 </body>
 </html>
