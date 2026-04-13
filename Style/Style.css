@@ -19,6 +19,10 @@ header {
 /* =========================
    NAVIGATION
 ========================= */
+#active {
+    text-decoration: underline;
+}
+
 nav {
     background-color: rgb(150, 35, 35);
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
