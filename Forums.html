@@ -31,16 +31,16 @@
 
         <h3>Submit a Suggestion</h3>
 
-        <form>
-            <label>Name of Killer / Case</label>
-            <input type="text" placeholder="e.g. Ted Bundy">
+        <form action="http:/foo.com" method="get">
+            <label for="Name Of Killer">Name of Killer / Case<span class="required">*</span></label>
+            <input type="text" name="Name Of Killer" id="Name Of Killer"  placeholder="e.g. Ted Bundy">
 
-            <label>Why should we cover this?</label>
-            <textarea placeholder="Write your suggestion..."></textarea>
+            <label for="Why Suggestion">Why should we cover this?</label>
+            <textarea name="Suggestion" id="Why Suggestion" placeholder="Write your suggestion..."></textarea>
 
-            <button type="button">
-                Submit Suggestion
-            </button>
+            <input type="submit" name="Submit Suggestion" id="button" value="Submit Suggestion">
+            <input type="reset" name="Reset Form" id="button" value="Reset Form">
+
         </form>
 
     </section>
